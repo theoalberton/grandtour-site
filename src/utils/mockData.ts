@@ -1,0 +1,96 @@
+import { Destination } from '../types';
+
+export const mockDestinations: Destination[] = [
+  {
+    id: '1',
+    name: 'Barcelona',
+    country: 'Espanha',
+    description: 'A capital da Catalunha é conhecida por sua arquitetura única, praias deslumbrantes e gastronomia excepcional.',
+    imageUrl: 'https://images.pexels.com/photos/819764/pexels-photo-819764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    introAudioUrl: '/audios/barcelona-intro.mp3',
+    pointsOfInterest: [
+      {
+        id: '101',
+        name: 'Sagrada Família',
+        description: 'A obra-prima inacabada de Antoni Gaudí é um dos monumentos mais visitados da Espanha.',
+        imageUrl: 'https://images.pexels.com/photos/2166398/pexels-photo-2166398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        audioUrl: '/audios/sagrada-familia.mp3',
+      },
+      {
+        id: '102',
+        name: 'Parque Güell',
+        description: 'Um parque público com elementos arquitetônicos projetados por Gaudí.',
+        imageUrl: 'https://images.pexels.com/photos/5841745/pexels-photo-5841745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        audioUrl: '/audios/park-guell.mp3',
+      },
+      {
+        id: '103',
+        name: 'La Rambla',
+        description: 'A rua mais famosa de Barcelona, cheia de lojas, restaurantes e artistas de rua.',
+        imageUrl: 'https://images.pexels.com/photos/2538131/pexels-photo-2538131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        audioUrl: '/audios/la-rambla.mp3',
+      },
+    ],
+    tourCount: 3,
+    price: 2.5,
+  },
+  {
+    id: '2',
+    name: 'Valência',
+    country: 'Espanha',
+    description: 'Valência combina história, modernidade e praias mediterrâneas em uma cidade vibrante e acolhedora.',
+    imageUrl: 'https://images.pexels.com/photos/5193556/pexels-photo-5193556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    introAudioUrl: '/audios/valencia-intro.mp3',
+    pointsOfInterest: [
+      {
+        id: '201',
+        name: 'Cidade das Artes e das Ciências',
+        description: 'Complexo arquitetônico moderno que abriga museus, cinema IMAX e um oceanário.',
+        imageUrl: 'https://images.pexels.com/photos/3855639/pexels-photo-3855639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        audioUrl: '/audios/ciudad-artes-ciencias.mp3',
+      },
+      {
+        id: '202',
+        name: 'Mercado Central',
+        description: 'Um dos maiores e mais antigos mercados da Europa, famoso por seus produtos frescos.',
+        imageUrl: 'https://images.pexels.com/photos/15073364/pexels-photo-15073364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        audioUrl: '/audios/mercado-central.mp3',
+      },
+    ],
+    tourCount: 2,
+    price: 2.5,
+  },
+  {
+    id: '3',
+    name: 'Sevilha',
+    country: 'Espanha',
+    description: 'Cidade andaluza conhecida por seu impressionante patrimônio histórico e cultural.',
+    imageUrl: 'https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    introAudioUrl: '/audios/sevilla-intro.mp3',
+    pointsOfInterest: [
+      {
+        id: '301',
+        name: 'Alcázar de Sevilha',
+        description: 'Palácio real que combina estilos muçulmanos e cristãos em sua arquitetura.',
+        imageUrl: 'https://images.pexels.com/photos/16047455/pexels-photo-16047455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        audioUrl: '/audios/alcazar-sevilla.mp3',
+      },
+      {
+        id: '302',
+        name: 'Catedral de Sevilha',
+        description: 'Uma das maiores catedrais góticas do mundo, com a famosa torre Giralda.',
+        imageUrl: 'https://images.pexels.com/photos/11451273/pexels-photo-11451273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        audioUrl: '/audios/catedral-sevilla.mp3',
+      },
+      {
+        id: '303',
+        name: 'Plaza de España',
+        description: 'Praça monumental construída para a Exposição Ibero-Americana de 1929.',
+        imageUrl: 'https://images.pexels.com/photos/3254729/pexels-photo-3254729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        audioUrl: '/audios/plaza-espana.mp3',
+      },
+    ],
+    tourCount: 3,
+    price: 2.5,
+  },
+];
