@@ -86,7 +86,7 @@ const HomePage: React.FC = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Compre o Tour</h3>
               <p className="text-gray-600">
-                Adquira o tour por apenas 2,50€ e tenha acesso a todos os áudios do destino
+                Adquira o tour por apenas 4,99€ e tenha acesso a todos os áudios do destino
               </p>
             </div>
             
