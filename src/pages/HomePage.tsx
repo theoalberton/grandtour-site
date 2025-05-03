@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
         </div>
         <div className="relative h-full flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-3xl md:text-5xl font-bold text-white font-heading mb-4">
-            Conheça a Espanha com o Grand Tour
+            Conheça o Mundo com o Grand Tour
           </h1>
           <p className="text-xl text-white max-w-3xl">
             Explore os melhores destinos com nosso guia turístico digital por áudio
