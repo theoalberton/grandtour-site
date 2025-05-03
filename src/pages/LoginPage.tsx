@@ -70,7 +70,7 @@ const LoginPage: React.FC = () => {
 
           <div className="mt-6 border-t pt-4">
             <div className="text-sm text-gray-500 mb-2">Credenciais para teste:</div>
-            <div className="text-xs text-gray-500">Admin: admin@grandtour.com / admin123</div>
+            <div className="text-xs text-gray-500">Admin: admin@grandtour.com / 12345678</div>
             <div className="text-xs text-gray-500">Usuário: user@example.com / password123</div>
           </div>
         </form>
